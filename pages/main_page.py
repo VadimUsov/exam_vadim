@@ -9,8 +9,6 @@ class MainPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
 
-    def open_site(self):
-        self.driver.get("http://127.0.0.1:8081/")
 
     def signup_button(self):
         return self.find_element(signup_button)
