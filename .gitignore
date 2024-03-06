@@ -1,3 +1,4 @@
 .gitignore
 .idea
 allure-results/*
+.pytest_cache
